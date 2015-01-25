@@ -54,4 +54,4 @@ for(i in 1:subjectLen) {
     row <- row + 1
   }
 }
-write.table(result, "tidy_data.txt") # write out the 2nd dataset
+write.table(result, "tidy_data.txt",row.name = FALSE) # write out the 2nd dataset
